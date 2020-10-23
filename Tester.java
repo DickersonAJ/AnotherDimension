@@ -12,6 +12,9 @@ public class Tester {
     System.out.println(ArrayOps.isRowMagic(b));
     int[][]c = { {1, 2, 3}, {0, 0, 6}, {5, 1, 0} };
     System.out.println(ArrayOps.isRowMagic(c));
+    System.out.println(ArrayOps.isColMagic(c));
+    int[][]d = { {1, 2, 3}, {1, 1, 0}, {1, 0, 0} };
+    System.out.println(ArrayOps.isColMagic(d));
   }
 
 }
