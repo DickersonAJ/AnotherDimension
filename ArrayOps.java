@@ -38,4 +38,18 @@ public class ArrayOps {
     return (sum(sumRows(arr)));
   }
 
+  public static int[][] invert(int[][] matrix) {
+    int[][]inverse = new int [matrix[0].length][matrix.length];
+    for (int i = 0; i < matrix[0].length; i++) {
+      for (int j = 0; j < matrix.length; j++) {
+        inverse[i][j] = matrix[j][i];
+      }
+    }
+    return inverse;
+  }
+
+  public static int[] sumCols(int[][] matrix) {
+    return sumRows(invert(matrix));
+  }
+
 }
