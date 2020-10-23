@@ -4,6 +4,8 @@ public class Tester {
     int[]a = {1, 2, 3};
     System.out.println(ArrayOps.sum(a));
     System.out.println(ArrayOps.largest(a));
+    int[][]b = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
+    System.out.println(ArrayOps.sumRows(b)[0]);
   }
 
 }
