@@ -15,6 +15,8 @@ public class Tester {
     System.out.println(ArrayOps.isColMagic(c));
     int[][]d = { {1, 2, 3}, {1, 1, 0}, {1, 0, 0} };
     System.out.println(ArrayOps.isColMagic(d));
+    System.out.println(ArrayOps.isLocationMagic(d, 0, 0));
+    System.out.println(ArrayOps.isLocationMagic(c, 1, 0));
   }
 
 }
