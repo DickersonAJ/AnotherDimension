@@ -9,6 +9,9 @@ public class Tester {
     System.out.println(ArrayOps.largestInRows(b)[1]);
     System.out.println(ArrayOps.sum(b));
     System.out.println(ArrayOps.sumCols(b)[0]);
+    System.out.println(ArrayOps.isRowMagic(b));
+    int[][]c = { {1, 2, 3}, {0, 0, 6}, {5, 1, 0} };
+    System.out.println(ArrayOps.isRowMagic(c));
   }
 
 }
